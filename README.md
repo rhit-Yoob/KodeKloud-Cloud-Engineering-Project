@@ -120,26 +120,6 @@ cloud-engineering-projects/
 
 ---
 
-## 💡 Daily Workflow
-
-Each day includes:
-1. **Hands-on Lab**: Complete the assigned cloud task
-2. **Documentation**: Save configuration files, scripts, or screenshots
-3. **Notes**: Document key learnings and commands used
-4. **Commit**: Push to GitHub with descriptive commit message
-
-Example structure for each day:
-```
-day-XX-project-name/
-├── README.md           # Project overview and objectives
-├── screenshots/        # Console screenshots
-├── configs/            # Configuration files
-├── scripts/            # CLI commands or automation scripts
-└── notes.md            # Key learnings and takeaways
-```
-
----
-
 ## 🎓 Learning Outcomes
 
 By completing this challenge, I will demonstrate:
@@ -174,14 +154,6 @@ After completing 100 Days of Cloud, next steps include:
 
 **AWS Certifications**
 - [ ] AWS Certified Solutions Architect - Associate
-- [ ] AWS Certified Developer - Associate
-- [ ] AWS Certified SysOps Administrator - Associate
-
-**Azure Certifications**
-- [ ] Microsoft Azure Fundamentals (AZ-900)
-- [ ] Microsoft Azure Administrator (AZ-104)
-- [ ] Microsoft Azure Solutions Architect Expert (AZ-305)
-
 ---
 
 ## 📚 Resources
@@ -196,11 +168,9 @@ After completing 100 Days of Cloud, next steps include:
 
 ## 🤝 Connect
 
-- **LinkedIn**: [Your LinkedIn Profile]
-- **Portfolio**: [Your Portfolio Website]
-- **Email**: [Your Email]
-- **Twitter/X**: [Your Twitter Handle]
-
+- **LinkedIn**: [https://www.linkedin.com/in/brian-yoo-422a2b288/]
+- **Portfolio**: [https://github.com/rhit-Yoob]
+- **Email**: [ibrianyoo@gmail.com]
 ---
 
 ## 📝 License
