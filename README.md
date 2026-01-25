@@ -37,32 +37,32 @@ cloud-engineering-projects/
 
 ### **Category 1: Core Services & Fundamentals** (Days 1-20)
 
-AWS **Focus**: EC2, S3, IAM, Security Groups, Networking Basics
-Azure **Focus**: VMs, VNets, Storage, NSGs, ARM Templates
+##### AWS **Focus**: EC2, S3, IAM, Security Groups, Networking Basics
+##### Azure **Focus**: VMs, VNets, Storage, NSGs, ARM Templates
 ---
 
 ### **Category 2: Networking & Advanced Compute** (Days 21-30)
 
-AWS **Focus**: Load Balancers, VPC Peering, NAT, CloudWatch, Web Servers
-Azure **Focus**: User Data, VNet Configuration, ACR, SQL Database
+##### AWS **Focus**: Load Balancers, VPC Peering, NAT, CloudWatch, Web Servers
+##### Azure **Focus**: User Data, VNet Configuration, ACR, SQL Database
 ---
 
 ### **Category 3: Databases & Container Services** (Days 31-40)
 
-AWS **Focus**: RDS, Lambda, ECS, S3 Static Hosting
-Azure **Focus**: Web Apps, Load Balancers, VNet Peering, Containers
+##### AWS **Focus**: RDS, Lambda, ECS, S3 Static Hosting
+##### Azure **Focus**: Web Apps, Load Balancers, VNet Peering, Containers
 ---
 
 ### **Category 4: Serverless & Automation** (Days 41-48)
 
-AWS **Focus**: KMS, DynamoDB, EKS, Auto Scaling, Event-Driven Architecture
-Azure **Focus**: Table Storage, Event Hub, AKS, Application Gateway
+##### AWS **Focus**: KMS, DynamoDB, EKS, Auto Scaling, Event-Driven Architecture
+##### Azure **Focus**: Table Storage, Event Hub, AKS, Application Gateway
 ---
 
 ### **Category 5: Security & Advanced Topics** (Days 49-50)
 
-**AWS** **Focus**: Audit Logging, Storage Expansion, Production Architecture
-**Azure** **Focus**: Complex Integration, Production Deployments
+##### **AWS** **Focus**: Audit Logging, Storage Expansion, Production Architecture
+##### **Azure** **Focus**: Complex Integration, Production Deployments
 
 ---
 
