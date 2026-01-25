@@ -25,11 +25,11 @@ Projects are organized by day and topic area:
 
 ```
 cloud-engineering-projects/
-├── days-001-020/    # Fundamentals (IAM, VPC, Storage basics)
-├── days-021-040/    # Compute & Networking
-├── days-041-060/    # Databases & Data Services
-├── days-061-080/    # Security & Compliance
-└── days-081-100/    # Advanced Topics & Capstone Projects
+├── Fundamentals (IAM, VPC, Storage basics)  # days-001-020/    
+├── Compute & Networking                     # days-021-040/     
+├── Databases & Data Services                # days-041-060/ 
+├── Security & Compliance                    # days-061-080/     
+└── Advanced Topics & Capstone Projects      # days-081-100/     
 ```
 
 Each day's folder contains:
