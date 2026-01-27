@@ -1,0 +1,2 @@
+create one subnet named nautilus-subnet under default VPC.
+![Subnet Creation](Images/CreateAWSSubnetImg.png)
