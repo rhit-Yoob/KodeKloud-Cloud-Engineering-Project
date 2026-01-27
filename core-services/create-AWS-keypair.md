@@ -15,7 +15,7 @@ I decided to automate this using the AWS CLI instead of doing it manually throug
 aws ec2 create-key-pair --key-name "devopKey" --key-type "rsa"
 ```
 
-See the full script: [create-keypair.sh](CreateAWSKeypair.sh)
+See the full script: [create-keypair.sh](create-AWS-keypair.sh)
 
 ## What I Learned
 
