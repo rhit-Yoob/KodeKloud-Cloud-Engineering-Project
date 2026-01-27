@@ -26,7 +26,7 @@ Turns out there was already a subnet using `172.31.0.0/20`. I had to learn what 
 
 ## The Creation Process
 
-![Subnet Creation](Images/CreateAWSSubnetImg.png)
+![Subnet Creation](Images/create-AWS-subnet-img.png)
 
 I navigated to VPC → Subnets → Create subnet, then filled in:
 - Selected my default VPC
