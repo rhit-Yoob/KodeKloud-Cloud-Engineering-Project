@@ -18,7 +18,7 @@ I used the AWS CLI to automate this instead of clicking through the console. Bre
 
 ## The Script
 
-See the full script: [create-security-group.sh](create-security-group.sh)
+See the full script: [create-security-group.sh](CreateAWSSecurityGroup.sh)
 
 ```bash
 #!/bin/bash
