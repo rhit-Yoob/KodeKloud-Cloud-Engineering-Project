@@ -83,41 +83,7 @@ That's where `sg-082ece030c262a8fa` came from!
 - For production, I should use a bastion host or VPN
 - HTTP on port 80 from anywhere makes sense for a public web server though
 
-## Improved Version
 
-Here's what I'd do differently:
-
-```bash
-#!/bin/bash
-
-# Create security group and capture the ID
-SG_ID=$(aws ec2 create-security-group \
-    --group-name nautilus-sg \
-    --description "Security group for Nautilus App Servers" \
-    --query 'GroupId' \
-    --output text)
-
-echo "Created security group: $SG_ID"
-
-# Allow HTTP from anywhere (public web server)
-aws ec2 authorize-security-group-ingress \
-    --group-id $SG_ID \
-    --protocol tcp \
-    --port 80 \
-    --cidr 0.0.0.0/0
-
-echo "Added HTTP rule"
-
-# Allow SSH only from my IP (more secure!)
-MY_IP=$(curl -s ifconfig.me)
-aws ec2 authorize-security-group-ingress \
-    --group-id $SG_ID \
-    --protocol tcp \
-    --port 22 \
-    --cidr ${MY_IP}/32
-
-echo "Added SSH rule for $MY_IP"
-```
 
 ## Key Takeaways
 
