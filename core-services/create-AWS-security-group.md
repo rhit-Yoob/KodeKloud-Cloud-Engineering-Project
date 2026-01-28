@@ -1,4 +1,4 @@
-# Creating AWS Security Group
+# Day 2: Creating AWS Security Group
 
 ## The Task
 
