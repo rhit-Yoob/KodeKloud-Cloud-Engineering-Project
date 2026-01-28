@@ -1,4 +1,4 @@
-# Creating AWS Key Pair
+# Day 1: Creating AWS Key Pair
 
 ## The Task
 
