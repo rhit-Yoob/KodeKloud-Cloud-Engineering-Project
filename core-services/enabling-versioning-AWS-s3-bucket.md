@@ -15,7 +15,7 @@ Enable versioning on the S3 bucket `xfusion-s3-4314` to maintain multiple versio
 ## 🛠️ Implementation
 
 ### Commands Used
-
+Script: ![script used](enabling-versioning-AWS-s3-bucket.sh)  
 
 ```bash
 # Enable versioning in S3 bucket xfusion-s3-4314
