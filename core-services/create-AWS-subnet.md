@@ -1,4 +1,4 @@
-# Creating AWS Subnet
+# Day 3: Creating AWS Subnet
 
 ## The Task
 
