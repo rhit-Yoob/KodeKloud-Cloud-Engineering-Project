@@ -19,6 +19,7 @@ Create an EBS volume with the following specifications:
 ## 🛠️ Implementation
 
 ### Step 1: Create the Volume (Without Name)
+![code](core-services/create-AWS-EBS-volume.sh)
 
 ```bash
 # Create GP3 volume
