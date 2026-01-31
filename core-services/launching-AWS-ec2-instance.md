@@ -49,7 +49,7 @@ Launch an EC2 instance with the following specifications:
 - Reviewed all settings
 - Clicked "Launch Instance"
 
-![EC2 Instance Running](Images/launching-AWS-ec2-instance-img3.png)
+![EC2 Instance Running](Images/launching-AWS-ec2-instance-img1.png)
 
 ✅ **Instance successfully launched and running!**
 
