@@ -19,6 +19,7 @@ Enable stop protection for an EC2 instance with the following requirements:
 ## 🛠️ Implementation
 
 ### Command Used
+![shell command](core-services/enabling-stop-protection-AWS-ec2.sh)
 
 ```bash
 # Enable stop protection for EC2 instance
@@ -66,37 +67,6 @@ Stop protection prevents an EC2 instance from being accidentally stopped through
 
 ---
 
-### **Stop Protection vs Termination Protection**
-
-| Feature | Stop Protection | Termination Protection |
-|---------|----------------|------------------------|
-| **Prevents** | Stopping instance | Deleting instance |
-| **CLI Flag** | `--disable-api-stop` | `--disable-api-termination` |
-| **Use Case** | Keep instance running 24/7 | Prevent data loss |
-| **Can Reboot?** | ✅ Yes | ✅ Yes |
-| **Can Stop?** | ❌ No | ✅ Yes |
-| **Can Terminate?** | ✅ Yes | ❌ No |
-
-**Important:** You often want **BOTH** protections on production instances!
-
----
-
-### **Why the Flag is Called `--disable-api-stop`**
-
-**My Initial Confusion:** Why is it called "disable" when we're enabling protection?
-
-**Answer:**
-- The flag **disables** the ability to stop the instance via API
-- "Disable API stop" = "Disable stopping through API" = "Enable stop protection"
-- It's about disabling the stop action, not disabling protection
-
-**Think of it as:**
-```
---disable-api-stop = "Disable the stop button" = Protection ON
-```
-
----
-
 ### **When to Use Stop Protection**
 
 **✅ Enable stop protection for:**
@@ -115,23 +85,6 @@ Stop protection prevents an EC2 instance from being accidentally stopped through
 
 ---
 
-### **How to Disable Stop Protection (When Needed)**
-
-If you need to stop the instance later:
-
-```bash
-# Remove stop protection
-aws ec2 modify-instance-attribute \
-  --instance-id i-0cf1af7f339ccd42e \
-  --no-disable-api-stop
-```
-
-**Process:**
-1. Remove stop protection (command above)
-2. Stop the instance
-3. Re-enable stop protection after starting (if needed)
-
----
 
 ## 🔑 Key Takeaways
 
@@ -146,47 +99,6 @@ aws ec2 modify-instance-attribute \
 5. **Can Be Toggled**: Protection can be enabled/disabled as needed
 
 6. **Does Not Prevent OS-Level Shutdown**: Only prevents AWS API/Console stops
-
----
-
-## 💡 Real-World Use Case
-
-**Scenario: Production Database Server**
-
-A company runs a MySQL database on EC2:
-- Powers customer-facing application
-- 99.9% uptime SLA requirement
-- Multiple developers have AWS access
-
-**Problem:**
-Developer accidentally clicks "Stop" instead of "Reboot" → Database goes down → Customers can't access application
-
-**Solution:**
-```bash
-# Enable both stop and termination protection
-aws ec2 modify-instance-attribute \
-  --instance-id i-xxxxx \
-  --disable-api-stop
-
-aws ec2 modify-instance-attribute \
-  --instance-id i-xxxxx \
-  --disable-api-termination
-```
-
-**Result:**
-- ✅ Developers cannot accidentally stop or terminate
-- ✅ Database stays running 24/7
-- ✅ Changes require deliberate action (disable protection first)
-
----
-
-## 🔄 Next Steps
-
-- [ ] Enable termination protection on the same instance
-- [ ] Learn how to check if protection is enabled via CLI
-- [ ] Practice enabling both protections in one workflow
-- [ ] Explore CloudWatch alarms for instance state changes
-- [ ] Understand AWS Service Control Policies for additional protection
 
 ---
 
