@@ -19,7 +19,7 @@ Enable stop protection for an EC2 instance with the following requirements:
 ## 🛠️ Implementation
 
 ### Command Used
-![shell command](core-services/enabling-stop-protection-AWS-ec2.sh)
+![shell command](enabling-stop-protection-AWS-ec2.sh)
 
 ```bash
 # Enable stop protection for EC2 instance
