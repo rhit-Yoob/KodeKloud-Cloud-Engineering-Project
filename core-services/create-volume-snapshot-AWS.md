@@ -21,7 +21,7 @@ Create a snapshot of an existing EBS volume with the following requirements:
 ## 🛠️ Implementation
 
 ### Shell Script
-!(shell code)[create-volume-snapshot-AWS.sh]
+![shell code](create-volume-snapshot-AWS.sh)
 
 ```bash
 # Create snapshot of devops-vol volume
