@@ -17,7 +17,7 @@ Create an IAM user with the following requirements:
 ## 🛠️ Implementation
 
 ### Command Used
-![shell command](create-iam-AWS.sh)
+![shell command](create-IAM-AWS.sh)
 
 ```bash
 # Create IAM user
