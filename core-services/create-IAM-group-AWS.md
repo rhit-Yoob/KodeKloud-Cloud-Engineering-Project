@@ -18,7 +18,7 @@ Create an IAM group with the following requirements:
 
 ### Command Used
 
-![shell code](create-iam-group-AWS.sh)
+![shell code](create-IAM-group-AWS.sh)
 
 ```bash
 # Create IAM group
