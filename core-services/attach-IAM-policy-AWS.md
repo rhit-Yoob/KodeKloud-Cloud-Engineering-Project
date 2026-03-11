@@ -19,7 +19,7 @@ Attach an existing IAM policy to an existing IAM user with the following require
 ## 🛠️ Implementation
 
 ### Command Used
-![shell code](attach-IAM-policy.sh)
+![shell code](attach-IAM-policy-AWS.sh)
 
 ```bash
 # Attach IAM policy to IAM user
