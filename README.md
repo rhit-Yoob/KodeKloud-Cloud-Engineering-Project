@@ -1,176 +1,239 @@
-# Cloud Engineering Projects
+# KodeKloud Engineering Projects
 
-A comprehensive hands-on journey through AWS and Azure cloud platforms, completing the **KodeKloud 100 Days of Cloud** challenge. This repository showcases practical cloud engineering skills across 100 real-world projects split evenly between AWS (Days 1-50) and Azure (Days 51-100).
+A comprehensive collection of cloud infrastructure, container orchestration, and DevOps projects documenting my learning journey through KodeKloud's platform. This repository showcases hands-on experience across cloud computing (AWS & Azure), Kubernetes, and infrastructure automation.
 
-## 🎯 Challenge Overview
+## 🎯 Overview
 
-**Program**: KodeKloud 100 Days of Cloud  
-**Duration**: 100 Days  
-**Platforms**: AWS (50 days) + Azure (50 days)  
-**Structure**: 5 core categories per platform  
-**Goal**: Build production-ready multi-cloud engineering skills
+This repository demonstrates practical engineering skills through multiple KodeKloud learning paths:
+- **100 Days of Cloud**: AWS and Azure cloud infrastructure (100 projects)
+- **Kubernetes**: Container orchestration and cluster management
+- **Additional modules**: As I continue expanding my skills
+
+Each project includes hands-on implementations, detailed documentation, and real-world applications.
 
 ## 📂 Repository Structure
 
-Projects are organized by cloud platform and topic category for easy navigation:
+```
+kodekloud-engineering-projects/
+│
+├── 100-days-of-cloud/
+│   ├── aws/                    # AWS projects (Days 1-50)
+│   │   ├── core-services/      # EC2, S3, IAM, Networking
+│   │   ├── networking-compute/ # Load balancers, VPCs
+│   │   ├── databases/          # RDS, DynamoDB
+│   │   ├── serverless/         # Lambda, EventBridge
+│   │   └── advanced/           # CloudFormation, Security
+│   │
+│   └── azure/                  # Azure projects (Days 51-100)
+│       ├── core-services/      # VMs, VNets, Storage
+│       ├── networking/         # NSGs, Load Balancers
+│       ├── databases/          # SQL Database, Cosmos DB
+│       ├── containers/         # ACR, AKS
+│       └── advanced/           # ARM Templates, Key Vault
+│
+└── kubernetes/
+    ├── kubernetes/            # kubernetes projects 
 
 ```
-cloud-engineering-projects/
-│
-├── AWS/
-│   ├── 01-core-services/           # Days 1-20
-│   ├── 02-networking-compute/      # Days 21-30
-│   ├── 03-databases-containers/    # Days 31-40
-│   ├── 04-serverless-automation/   # Days 41-48
-│   └── 05-security-advanced/       # Days 49-50
-│
-└── Azure/
-    ├── 01-core-services/           # Days 1-20
-    ├── 02-networking-compute/      # Days 21-30
-    ├── 03-databases-containers/    # Days 31-40
-    ├── 04-automation-integration/  # Days 41-48
-    └── 05-advanced-architecture/   # Days 49-50
-```
 
 ---
 
+## 🚀 Learning Paths
 
-### **Category 1: Core Services & Fundamentals** (Days 1-20)
+### **100 Days of Cloud** (In Progress)
 
-##### AWS **Focus**: EC2, S3, IAM, Security Groups, Networking Basics
-##### Azure **Focus**: VMs, VNets, Storage, NSGs, ARM Templates
+**Platforms**: AWS (Days 1-50) + Azure (Days 51-100)  
+**Categories**: Core Services, Networking, Databases, Containers, Serverless, Security
+
+<details>
+<summary><b>View AWS Track Details (Days 1-50)</b></summary>
+
+#### **Category 1: Core Services & Fundamentals** (Days 1-20)
+- EC2 instance lifecycle management
+- S3 storage and versioning
+- IAM users, groups, policies
+- Security groups and key pairs
+- EBS volumes and snapshots
+
+#### **Category 2: Networking & Advanced Compute** (Days 21-30)
+- Elastic IPs and Elastic Network Interfaces
+- Load balancers and auto-scaling
+- VPC peering and NAT gateways
+- CloudWatch monitoring
+
+#### **Category 3: Databases & Containers** (Days 31-40)
+- RDS databases
+- Lambda functions
+- ECS container orchestration
+- ECR container registry
+
+#### **Category 4: Serverless & Automation** (Days 41-48)
+- DynamoDB NoSQL database
+- EKS Kubernetes service
+- CloudFormation Infrastructure as Code
+- SQS/SNS messaging
+
+#### **Category 5: Security & Advanced** (Days 49-50)
+- KMS encryption
+- Audit logging
+- Production architectures
+
+</details>
+
+<details>
+<summary><b>View Azure Track Details (Days 51-100)</b></summary>
+
+#### **Category 1: Core Services & Fundamentals** (Days 1-20)
+- Virtual Machines and managed disks
+- Virtual Networks and subnets
+- Blob Storage and containers
+- ARM Templates Infrastructure as Code
+
+#### **Category 2: Networking & Compute** (Days 21-30)
+- Network Security Groups
+- Load Balancers and Application Gateway
+- Azure Container Registry
+- SQL Database
+
+#### **Category 3: Application & Containers** (Days 31-40)
+- Web application deployment
+- VNet peering
+- Container orchestration
+- Key Vault secret management
+
+#### **Category 4: Data & Integration** (Days 41-48)
+- Azure Kubernetes Service (AKS)
+- Event Hub streaming
+- Database migration
+- Table Storage
+
+#### **Category 5: Advanced Architecture** (Days 49-50)
+- Complex integrations
+- Production deployments
+
+</details>
+
 ---
 
-### **Category 2: Networking & Advanced Compute** (Days 21-30)
+### **Kubernetes** (Planned/In Progress)
 
-##### AWS **Focus**: Load Balancers, VPC Peering, NAT, CloudWatch, Web Servers
-##### Azure **Focus**: User Data, VNet Configuration, ACR, SQL Database
----
+**Focus**: Container orchestration, cluster management, production deployments
 
-### **Category 3: Databases & Container Services** (Days 31-40)
-
-##### AWS **Focus**: RDS, Lambda, ECS, S3 Static Hosting
-##### Azure **Focus**: Web Apps, Load Balancers, VNet Peering, Containers
----
-
-### **Category 4: Serverless & Automation** (Days 41-48)
-
-##### AWS **Focus**: KMS, DynamoDB, EKS, Auto Scaling, Event-Driven Architecture
-##### Azure **Focus**: Table Storage, Event Hub, AKS, Application Gateway
----
-
-### **Category 5: Security & Advanced Topics** (Days 49-50)
-
-##### **AWS** **Focus**: Audit Logging, Storage Expansion, Production Architecture
-##### **Azure** **Focus**: Complex Integration, Production Deployments
+- Core concepts: Pods, Deployments, Services
+- Configuration: ConfigMaps, Secrets, Environment Variables
+- Networking: Network Policies, Ingress Controllers
+- Storage: Persistent Volumes, Storage Classes
+- Advanced: Helm charts, Operators, Custom Resource Definitions
 
 ---
 
+## 🛠️ Technologies & Tools
 
-## 🛠️ Technologies & Skills
+### **Cloud Platforms**
+- **AWS**: EC2, S3, VPC, RDS, Lambda, ECS, EKS, IAM, CloudFormation, CloudWatch
+- **Azure**: Virtual Machines, VNet, Blob Storage, SQL Database, AKS, Key Vault, ARM Templates
 
-### Cloud Platforms
-- **AWS**: EC2, S3, VPC, RDS, Lambda, ECS, EKS, CloudFormation
-- **Azure**: Virtual Machines, VNet, Blob Storage, SQL Database, AKS, ARM Templates
+### **Container & Orchestration**
+- Docker
+- Kubernetes
+- Amazon ECS/EKS
+- Azure AKS
+- Helm
 
-### Core Competencies
-✅ Virtual machine deployment and management  
+### **Infrastructure as Code**
+- AWS CloudFormation
+- Azure ARM Templates
+- Terraform (planned)
+
+### **CLI & Automation**
+- AWS CLI
+- Azure CLI
+- kubectl
+- Bash scripting
+- Python
+
+### **Core Competencies**
+✅ Multi-cloud infrastructure (AWS, Azure)  
+✅ Container orchestration (Kubernetes, ECS, AKS)  
 ✅ Network architecture and security  
 ✅ Storage solutions and data management  
 ✅ Identity and access management (IAM/RBAC)  
-✅ Container orchestration (ECS, AKS)  
 ✅ Serverless computing (Lambda, Azure Functions)  
-✅ Database administration (RDS, SQL Database)  
+✅ Database administration (RDS, SQL Database, DynamoDB)  
 ✅ Infrastructure as Code (CloudFormation, ARM Templates)  
 ✅ Load balancing and high availability  
-✅ Monitoring and logging  
-✅ Security best practices  
-✅ Cost optimization  
-
-### Tools & CLI
-- AWS CLI
-- Azure CLI
-- Docker
-- Kubernetes
-- Git
-- SSH
-- Nginx
+✅ Monitoring, logging, and observability  
+✅ Security best practices and compliance  
+✅ Cost optimization strategies  
 
 ---
 
-## 📊 Progress Tracker
+## 📊 Progress Overview
 
-### AWS Track
-| Category | Days | Status |
-|----------|------|--------|
-| Core Services & Fundamentals | 1-20 | 🔄 In Progress |
-| Networking & Advanced Compute | 21-30 | ⏳ Upcoming |
-| Databases & Container Services | 31-40 | ⏳ Upcoming |
-| Serverless & Automation | 41-48 | ⏳ Upcoming |
-| Security & Advanced Topics | 49-50 | ⏳ Upcoming |
+### 100 Days of Cloud
+| Platform | Progress | Status |
+|----------|----------|--------|
+| AWS (Days 1-50) | Days 1-19 | 🔄 In Progress |
+| Azure (Days 51-100) | Not Started | ⏳ Upcoming |
 
-### Azure Track
-| Category | Days | Status |
-|----------|------|--------|
-| Core Services & Fundamentals | 1-20 | ⏳ Upcoming |
-| Networking & Advanced Compute | 21-30 | ⏳ Upcoming |
-| Application Deployment & Containers | 31-40 | ⏳ Upcoming |
-| Data & Integration Services | 41-48 | ⏳ Upcoming |
-| Advanced Architecture | 49-50 | ⏳ Upcoming |
+### Kubernetes
+| Topic | Status |
+|-------|--------|
+| kubernetes |🔄 In Progress |
 
 ---
 
 ## 🎓 Learning Outcomes
 
-By completing this challenge, I will demonstrate:
+Through this comprehensive training, I am developing:
 
-**Multi-Cloud Expertise**
-- Understand differences between AWS and Azure service models
-- Deploy equivalent solutions across both platforms
-- Make informed decisions about cloud provider selection
+**Cloud Engineering Skills**
+- Deploy and manage resources across AWS and Azure
+- Design secure, scalable, multi-cloud architectures
+- Implement high availability and disaster recovery solutions
+- Apply security best practices and compliance requirements
+- Optimize costs through right-sizing and resource management
 
-**Production-Ready Skills**
-- Design secure, scalable cloud architectures
-- Implement high availability and disaster recovery
-- Follow security and compliance best practices
-- Optimize costs and performance
+**Container & Orchestration**
+- Deploy and manage Kubernetes clusters
+- Orchestrate containerized applications at scale
+- Implement service discovery and load balancing
+- Manage configuration and secrets securely
+- Apply cloud-native development patterns
 
-**DevOps & Automation**
-- Infrastructure as Code proficiency
-- CI/CD pipeline concepts
-- Container and serverless deployment
-- Monitoring and observability
+**DevOps Practices**
+- Infrastructure as Code for repeatable deployments
+- CI/CD pipeline integration concepts
+- Monitoring, logging, and observability
+- Incident response and troubleshooting
+- Collaborative team workflows
 
 **Problem-Solving**
-- Troubleshoot network connectivity issues
-- Debug application deployment problems
-- Optimize resource configurations
+- Debug network connectivity and routing issues
+- Troubleshoot application deployment failures
+- Optimize resource utilization and performance
+- Design resilient, fault-tolerant systems
 
----
-
-## 🏆 Certification Path
-
-After completing 100 Days of Cloud, next steps include:
-
-**AWS Certifications**
-- [ ] AWS Certified Solutions Architect - Associate
 ---
 
 ## 📚 Resources
 
-- [KodeKloud 100 Days of Cloud](https://kodekloud.com/100-days-of-cloud)
+### KodeKloud Platform
+- [KodeKloud](https://kodekloud.com)
+- [100 Days of Cloud](https://kodekloud.com/100-days-of-cloud)
+- [Kubernetes Courses](https://kodekloud.com/courses/kubernetes-for-beginners)
+
+### Official Documentation
 - [AWS Documentation](https://docs.aws.amazon.com)
 - [Azure Documentation](https://docs.microsoft.com/azure)
-- [AWS CLI Reference](https://docs.aws.amazon.com/cli)
-- [Azure CLI Reference](https://docs.microsoft.com/cli/azure)
+- [Kubernetes Documentation](https://kubernetes.io/docs)
+- [Docker Documentation](https://docs.docker.com)
 
----
+### CLI References
+- [AWS CLI](https://docs.aws.amazon.com/cli)
+- [Azure CLI](https://docs.microsoft.com/cli/azure)
+- [kubectl](https://kubernetes.io/docs/reference/kubectl)
 
-## 🤝 Connect
-
-- **LinkedIn**: [https://www.linkedin.com/in/brian-yoo-422a2b288/]
-- **Portfolio**: [https://github.com/rhit-Yoob]
-- **Email**: [ibrianyoo@gmail.com]
 ---
 
 ## 📝 License
@@ -179,15 +242,26 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-⭐ **Star this repository** if you find it helpful for your own cloud learning journey!
+## ⭐ Support
 
-**Challenge Status**: 🔄 Active | Day 19/100  
-**Last Updated**: March 19, 2026
+If you find this repository helpful for your own learning journey, please consider:
+- Starring the repository
+- Sharing with others learning cloud and Kubernetes
+- Providing feedback or suggestions
 
 ---
 
-## 🎯 Challenge Commitment
+## 🎯 Current Focus
 
-> "100 days of consistent cloud engineering practice across AWS and Azure. Building real skills, one day at a time."
+**Active Learning Path**: 100 Days of Cloud - AWS Track (Days 1-50)  
+**Current Day**: Day 19
 
-**#100DaysOfCloud #AWS #Azure #CloudEngineering #KodeKloud**
+**Last Updated**: February 19, 2026
+
+---
+
+## 💪 Commitment
+
+> "Consistent daily practice across cloud platforms and container orchestration. Building production-ready skills through hands-on projects, one day at a time."
+
+**#KodeKloud #CloudEngineering #AWS #Azure #Kubernetes #DevOps #100DaysOfCloud**
