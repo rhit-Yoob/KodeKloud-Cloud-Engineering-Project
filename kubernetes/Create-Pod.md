@@ -20,7 +20,7 @@ Create a pod on a Kubernetes cluster using the `httpd` image with specific label
 ---
 
 ## YAML Manifest
-![yaml File](Create.Pod.yaml)    
+![yaml File](Create-Pod.yaml)    
 Create a file called `pod.yaml`:
 
 ```yaml
